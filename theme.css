@@ -1,0 +1,39 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.row {
+	margin-bottom: 10px;
+}
+  .navbar  {
+    color: #fff;
+    background: #27AE60;
+  }
+ .navbar .navbar-brand{
+    color: #fff;
+    background: #27AE60;
+  }
+ .navbar .navbar-nav > li > a {
+    color: #fff;
+    background: #27AE60;
+  }
+  .navbar .navbar-nav  > .active > a,
+  .navbar .navbar-nav  > .active > a:hover,
+  .navbar .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #27AE60;
+  }
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
