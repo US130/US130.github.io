@@ -69,18 +69,18 @@
 
       <div class="row">
         <p class="btn-group center-block" role="group">
-          <button type="button" class="col-xs-3 btn btn-success">
+          <a href="#shisetsu"><button type="button" class="col-xs-3 btn btn-success">
             <span class="glyphicon glyphicon-home" aria-hidden="true"></span>施設<br>紹介
-          </button>
-          <button type="button" class="col-xs-3 btn btn-success">
+          </button></a>
+          <a href="#ranking"><button type="button" class="col-xs-3 btn btn-success">
             <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>人気商品<br>ランキング
-          </button>
-          <button type="button" class="col-xs-3 btn btn-success">
+          </button></a>
+          <a href="#item"><button type="button" class="col-xs-3 btn btn-success">
             <span class="glyphicon glyphicon-star" aria-hidden="true"></span>オススメ<br>商品  
-          </button>
-          <button type="button" class="col-xs-3 btn btn-success">
+          </button></a>
+          <a href="#"><button type="button" class="col-xs-3 btn btn-success">
             <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>スタンプ<br>ラリー
-          </button>
+          </button></a>
         </p>
       </div>
   <div class="container theme-showcase" role="main">
@@ -92,9 +92,10 @@
         2016.01.05 新春に当たって<br>
         2015.11.18 産地直送「もぎたてりんご即売会」<br>
         2015.10.05 秋の大収穫祭セール開始<br>
-      </div>
+      </div> 
     </div>
-    <div class="page-header">
+    
+    <div class="page-header" >
       <h4 id="shisetsu"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>施設紹介</h4>
     </div>
     <h5>農産物直売所</h4>
@@ -117,7 +118,7 @@
         営業時間：8:00～21:00<br>
         年中無休
     </p>
-    <div class="page-header">
+    <div class="page-header" id="ranking">
       <h4><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>人気商品ランキング</h4>
     </div>
     <div >
@@ -126,56 +127,60 @@
               <tr>
                 <td>1</td>
                 <td><img src="./img/fd401067.jpg" class="img-responsive" style="max-width:100px;" alt=""></td>
-                <td>朝摘み　いちご</td>
-                <td>500円</td>
+                <td>朝摘み<br>いちご<br>★★★★☆</td>
+                <td>500円<br><br><button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button></td>
               </tr>
               <tr>
                 <td>2</td>
                 <td><img src="./img/fd400005.jpg" class="img-responsive" style="max-width:100px;"  alt=""></td>
-                <td>特産　葉唐辛子</td>
-                <td>480円</td>
+                <td>特産<br>葉唐辛子<br>★★★☆☆</td>
+                <td>480円<br><br><button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button></td>
               </tr>
               <tr>
                 <td>3</td>
                 <td><img src="./img/fd400997.jpg" class="img-responsive"style="max-width:100px;"  alt=""></td>
-                <td>もぎたてリンゴ</td>
-                <td>580円</td>
+                <td>もぎたて<br>リンゴ<br>★★★☆☆</td>
+                <td>580円<br><br><button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button></td>
               </tr>
             </tbody>
           </table>
     </div>
-    <div class="page-header">
+    <div class="page-header" id="item">
       <h4><span class="glyphicon glyphicon-star" aria-hidden="true"></span>オススメ商品 </h4>
     </div>
   <div class="row">
     <div class="col-xs-6"><img src="./img/fd400005.jpg" class="img-responsive" alt=""></div>
     <div class="col-xs-6">
-      <h5>特産　葉唐辛子</h5>
-      <span >480円</span><br>
+      特産　葉唐辛子<br>
+      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><span style="text-decoration: underline;">秋山農園(108)</span><br>
+      <span >480円</span><br><br>
       <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="padding:5px 0px;">
     <div class="col-xs-6"><img src="./img/fd400997.jpg" class="img-responsive" alt=""></div>
         <div class="col-xs-6">
-      <h5>特産　葉唐辛子</h5>
-      <span >480円</span><br>
+      もぎたて　リンゴ<br>
+      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><span style="text-decoration: underline;">中山果樹園(210)</span><br>
+      <span >480円</span><br><br>
       <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="padding:5px 0px;">
     <div class="col-xs-6"><img src="./img/fd401067.jpg" class="img-responsive" alt=""></div>    
     <div class="col-xs-6">
-      <h5>特産　葉唐辛子</h5>
-      <span >480円</span><br>
+      朝摘み　いちご<br>
+      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><span style="text-decoration: underline;">井上りんご園(78)</span><br>
+      <span >580円</span><br><br>
       <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="padding:5px 0px;">
     <div class="col-xs-6"><img src="./img/fd400240.jpg" class="img-responsive" alt=""></div>
       <div class="col-xs-6">
-      <h5>特産　葉唐辛子</h5>
-      <span >480円</span><br>
+      今が食べ頃　カボチャ<br>
+      <span class="glyphicon glyphicon-home" aria-hidden="true"></span><span style="text-decoration: underline;">秋山農園(108)</span><br>
+      <span >480円</span><br><br>
       <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>カートに入れる</button>
     </div>
   </div>
